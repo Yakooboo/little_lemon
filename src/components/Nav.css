@@ -1,0 +1,125 @@
+.nav{
+    /* Logo 1 */
+
+
+position: absolute;
+width: 188px;
+height: 56px;
+left: 291px;
+top: 48px;
+
+
+
+/* HOME */
+
+
+position: absolute;
+width: 92px;
+height: 35px;
+left: 519px;
+top: 69px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* ABOUT */
+
+
+position: absolute;
+width: 88px;
+height: 31px;
+left: 604px;
+top: 71px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* MENU */
+
+
+position: absolute;
+width: 94px;
+height: 31px;
+left: 689px;
+top: 71px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* RESERVATIONS */
+
+
+position: absolute;
+width: 165px;
+height: 31px;
+left: 767px;
+top: 71px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* ORDER ONLINE */
+
+
+position: absolute;
+width: 164px;
+height: 31px;
+left: 931px;
+top: 71px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* LOGIN */
+
+
+position: absolute;
+width: 165px;
+height: 31px;
+left: 1095px;
+top: 71px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+}

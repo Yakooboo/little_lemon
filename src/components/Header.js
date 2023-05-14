@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import Nav from './Nav.js';
+import Nav from '/Users/giacomoleto/little_lemon/src/components/Header.js';
 
 
 const Header = () => (

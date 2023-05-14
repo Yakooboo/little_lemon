@@ -1,41 +1,22 @@
 import React from 'react';
 import './Nav.css';
-import companyLogo from './Logo.svg';
+import companyLogo from '../icons_assets/Logo.svg';
 
 
 
 
+function Nav() { 
+  return ( 
+    <ul>
+      <img src={companyLogo} alt="Little Lemon logo"/>
+      <li><a href="/home">Home</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Menu">Menu</a></li>
+      <li><a href="#Reservations">Reservations</a></li>
+      <li><a href="#OrderOnline">Order Online</a></li>
+      <li><a href="#Login">Login</a></li>
+    </ul>
+  ) 
+} 
 
-const Nav = () => (
-    <div className="nav">
-   <Nav
-activeKey="/home"
-onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
->
-<Nav.Item>
-  <Nav.Link href="/home"><img src={companyLogo} alt="Little Lemon logo"/></Nav.Link>
-</Nav.Item>
-<Nav.Item>
-  <Nav.Link href="/home">HOME</Nav.Link>
-</Nav.Item>
-<Nav.Item>
-  <Nav.Link href="#About">ABOUT</Nav.Link>
-</Nav.Item>
-<Nav.Item>
-  <Nav.Link href="#Menu">MENU</Nav.Link>
-</Nav.Item>
-<Nav.Item>
-  <Nav.Link href="#Reservations">RESERVATIONS</Nav.Link>
-</Nav.Item>
-<Nav.Item>
-  <Nav.Link eventKey="OrderOnline">ORDER ONLINE</Nav.Link>
-</Nav.Item>
-<Nav.Item>
-  <Nav.Link eventKey="Login">LOGIN</Nav.Link>
-</Nav.Item>
-</Nav>
-    </div>
-  )
-  export default Nav; 
-
-
+export default Nav;
